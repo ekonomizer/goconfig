@@ -1,0 +1,11 @@
+.vscode/
+src/cmd/transtat/transtat
+vendor/
+release/bin
+*.deb
+.vagrant
+debug.test
+src/cmd/**/debug
+src/config/*.yml
+!src/config/example.yml
+tmp

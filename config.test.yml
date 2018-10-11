@@ -1,0 +1,5 @@
+A:
+  B:
+    C: c from config
+    D: d from config
+    CamelCased: camelcased from config
