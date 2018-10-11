@@ -43,7 +43,7 @@ type Config struct {
 **main.go**
 ```go
 cfg := config.Config{}
-err := configuration.Load(configFile, &cfg)
+err := goconfig.Load(configFile, &cfg)
 
 if err != nil {
     fmt.Printf("unable to load config: %s\n", err)
