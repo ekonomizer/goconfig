@@ -11,7 +11,7 @@
 
 ```toml
 [[constraint]]
-  name = "gitlab2.sqtools.ru/go-pkg/configuration"
+  name = "github.com/ekonomizer/goconfig"
   source = "ssh://git@github.com:ekonomizer/goconfig.git"
   version = "0.1.1"
 ```
