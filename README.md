@@ -27,8 +27,9 @@ log:
   output: syslog
 ```
 
-**config.go**
+**main.go**
 ```go
+
 type Config struct {
     HTTP struct {
         Host string
@@ -38,12 +39,9 @@ type Config struct {
         Output string
     }
 }
-```
 
-**main.go**
-```go
-cfg := config.Config{}
-err := goconfig.Load(configFile, &cfg)
+cfg := Config{}
+err := config.Load(configFile, &cfg)
 
 if err != nil {
     fmt.Printf("unable to load config: %s\n", err)
